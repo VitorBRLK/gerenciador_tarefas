@@ -1,16 +1,7 @@
 from django.shortcuts import render
 
-# Tela de login
-def login():
+# Create your views here.
 
-    return
 
-# Tela de cadastro
-def cadastro():
-
-    return
-
-# Tela principal do usuário
-def main_page_user():
-
-    return
+def login_view(request):
+    return render(request, 'members/login.html')
